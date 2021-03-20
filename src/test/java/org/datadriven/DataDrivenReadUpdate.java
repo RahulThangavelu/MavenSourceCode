@@ -30,6 +30,9 @@ public class DataDrivenReadUpdate {
         	c.setCellValue("Santhi Sabitha");
         	FileOutputStream o = new FileOutputStream(f);
         	w.write(o);
+        	
+        	
+        	System.out.println("Read and Update");
         }
         
 	}
